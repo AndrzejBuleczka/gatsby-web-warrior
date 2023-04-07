@@ -1,12 +1,13 @@
 import React from 'react'
-import Navbar from '../../components/NavBar'
+import Layout from '../../components/Layout'
 
 export default function Projects() {
   return (
-    <div>
-      <Navbar />
-      <h2>Portfolio</h2>
-      <h3>Projects & Websites I've created</h3>
-    </div>
+    <Layout>
+      <div>
+        <h2>Portfolio</h2>
+        <h3>Projects & Websites I've created</h3>
+      </div>
+    </Layout>
   )
 }
