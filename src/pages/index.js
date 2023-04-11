@@ -2,7 +2,7 @@ import * as React from "react";
 import Layout from "../components/Layout";
 import * as styles from '../styles/home.module.css';
 import { Link, graphql } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { GatsbyImage } from "gatsby-plugin-image";
 
 
 export default function Home({data}) {
