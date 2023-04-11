@@ -27,7 +27,7 @@ export default function Projects({data}) {
 
 export const query = graphql`
 query ProjectPage {
-  allMarkdownRemark {
+  allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
     nodes {
       frontmatter {
         slug
