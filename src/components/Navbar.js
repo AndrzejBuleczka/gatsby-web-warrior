@@ -1,7 +1,21 @@
-import { Link } from 'gatsby'
+import { Link, graphql, useStaticQuery } from 'gatsby'
 import React from 'react'
 
 export default function Navbar() {
+  // const data = useStaticQuery(graphql`
+  // query TitleQuery {
+  //   site {
+  //     siteMetadata {
+  //       title
+  //       description
+  //       copyright
+  //     }
+  //   }
+  // }
+  // `)
+
+  // const { title } = data.site.siteMetadata
+
   return (
     <nav>
       <h1>Web Warrior</h1>
