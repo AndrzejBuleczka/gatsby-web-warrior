@@ -15,7 +15,7 @@ export default function Projects({data}) {
         <h3>Projects & Websites I've created</h3>
         <div className={styles.projects}>
           {projects.map(project => (
-            <Link to={'/projects/' + project.frontmatter.lug} key={project.id}>
+            <Link to={'/projects/' + project.frontmatter.slug} key={project.id}>
               <div>
                 <GatsbyImage image={project.frontmatter.thumb.childImageSharp.gatsbyImageData} alt={project.frontmatter.title}/>
                 <h3>{project.frontmatter.title}</h3>
