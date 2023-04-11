@@ -6,7 +6,6 @@ import { GatsbyImage } from "gatsby-plugin-image";
 
 
 export default function Home({data}) {
-  console.log(data.file.childImageSharp.fluid)
   return (
     <Layout>
       <section className={styles.header}>
